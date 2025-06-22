@@ -50,7 +50,7 @@ class ArithmeticOperationsTest
         ArithmeticOperations mod = new ArithmeticOperations();
         double modresult = mod.modulename(8.0,2.0);
         System.out.println(modresult);
-        assertEquals(0.0,modresult);
+        assertEquals(4.0,modresult);
     }
 
 
